@@ -14,7 +14,15 @@ export class MainPageComponent {
   },{
     name:'Goku',
     power: 9500
-  }];
+  },{
+    name: 'Trunks',
+    power: 10
+  }
+  ,{
+    name: 'Vegata',
+    power: 7500
+  }
+];
 
 
 }

@@ -6,4 +6,11 @@ import {  Component } from '@angular/core';
   templateUrl: './add-character.component.html',
   styleUrls: ['./add-character.component.css'],
 })
-export class AddCharacterComponent { }
+export class AddCharacterComponent {
+
+  public character: Character = {
+    name: '',
+    power: 0
+  };
+
+ }
